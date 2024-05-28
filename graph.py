@@ -26,7 +26,7 @@ for city_data in cities_data:
         else:
             if is_monotonic(temperatures):
                 monotonic_cities.append(city_name)
-print("Cities with monotonically changing temperature throughout the week:")
+print("Города с монотонно меняющейся температурой на неделе:")
 for city in monotonic_cities:
     print(city)
 cities_for_plotting = monotonic_cities[5:7]

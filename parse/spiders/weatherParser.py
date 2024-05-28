@@ -1,7 +1,6 @@
 import scrapy
 import logging
 
-# logging.basicConfig(filename='/Users/ratibor/vscode/python/Programs/firstP/log_file.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logging.basicConfig(
     filename="log_file.log",
     level=logging.INFO,
